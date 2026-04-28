@@ -26,6 +26,15 @@ Hook-driven diagnostics and repair for self-hosted Firecrawl and SearXNG instanc
 
 *Repository coming soon.*
 
+### [Converge](https://github.com/B-A-M-N/converge)
+**Universal recurring task engine for CLI AI agents**
+
+Automates recurring tasks, scheduled workflows, and loop-based execution for AI agents running in CLI environments.
+
+- Cron-based scheduling with natural language support
+- Loop execution with self-paced cadence
+- Background task management and wake-up calls
+
 ## Usage
 
 Each plugin lives in its own repo. Install by cloning or loading via `--plugin-dir`:
