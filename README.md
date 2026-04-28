@@ -13,6 +13,19 @@ Prevents agent memory loss during compaction, `/clear`, or long-running sessions
 - Skill-driven toggle: `/handshake on|off|status`
 - Checkpoint format: structured JSON (machine) + Markdown (human)
 
+### [SurvivalDev-InfraDoctor](https://github.com/B-A-M-N/survivaldev-infradoctor)
+**Infrastructure doctor for self-hosted services**
+
+Hook-driven diagnostics and repair for self-hosted Firecrawl and SearXNG instances. Detects failures, diagnoses root causes, applies safe repairs, and validates recovery.
+
+- Autonomous diagnosis → propose fix → safe repair → validate → report loop
+- Dispatched automatically on infrastructure incidents
+
+### [VibeFlow](https://github.com/B-A-M-N/vibeflow)
+**Visual workflow orchestration for Claude Code**
+
+*Repository coming soon.*
+
 ## Usage
 
 Each plugin lives in its own repo. Install by cloning or loading via `--plugin-dir`:
