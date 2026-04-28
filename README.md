@@ -22,9 +22,9 @@ Hook-driven diagnostics and repair for self-hosted Firecrawl and SearXNG instanc
 - Dispatched automatically on infrastructure incidents
 
 ### [VibeFlow](https://github.com/B-A-M-N/vibeflow)
-**Visual workflow orchestration for Claude Code**
+**Mistral Vibe workflow orchestration**
 
-*Repository coming soon.*
+Design, init, plan, apply, inspect, and validate agentic workflows with middleware, phases, and convergence gates.
 
 ### [Converge](https://github.com/B-A-M-N/converge)
 **Universal recurring task engine for CLI AI agents**
