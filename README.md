@@ -22,9 +22,14 @@ Hook-driven diagnostics and repair for self-hosted Firecrawl and SearXNG instanc
 - Dispatched automatically on infrastructure incidents
 
 ### [VibeFlow](https://github.com/B-A-M-N/vibeflow)
-**Mistral Vibe workflow orchestration**
+**Mistral Vibe workflow design, implementation, and validation lifecycle**
 
-Design, init, plan, apply, inspect, and validate agentic workflows with middleware, phases, and convergence gates.
+Single-model Claude Code plugin for conceptualizing, designing, planning, applying, and validating advanced Mistral Vibe workflows. VibeFlow uses signed intent artifacts, progressive feasibility references, Mermaid/JSON runtime diagrams, and deterministic validation gates to keep workflow designs grounded in real Mistral Vibe internals.
+
+- Lifecycle: `init → design → plan → apply → validate`
+- Init emits signed `VISION.md`, `PLAN.md`, and `WORKFLOW_CONTRACT.json`
+- Design maps intent to feasible runtime surfaces instead of assuming impossible middleware/tool/session behavior
+- Feasibility substrate covers tiers A-E, key contracts, workflow patterns, events, config keys, tier composition, and observability
 
 ### [Converge](https://github.com/B-A-M-N/converge)
 **Universal recurring task engine for CLI AI agents**
