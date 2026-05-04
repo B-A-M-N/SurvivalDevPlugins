@@ -40,12 +40,37 @@ Automates recurring tasks, scheduled workflows, and loop-based execution for AI 
 - Loop execution with self-paced cadence
 - Background task management and wake-up calls
 
-## Usage
+### [PRForge](https://github.com/B-A-M-N/prforge)
+**Professional PR contribution harness for Claude Code**
 
-Each plugin lives in its own repo. Install by cloning or loading via `--plugin-dir`:
+Delegated PR execution with guarded release, coding discipline enforcement, and distributed mesh mode. Turns the agent into a disciplined upstream contributor.
+
+- Model: investigate → plan → patch → validate → self-review → package → you approve
+- Enforces repo intelligence, scope contracts, validation honesty, and git safety
+- Distributed mesh mode for multi-repo contribution workflows
+
+## Installation
+
+Add the SurvivalDev marketplace:
 
 ```bash
-claude --plugin-dir /path/to/handshake
+claude plugin marketplace add B-A-M-N/SurvivalDevPlugins
+```
+
+List available plugins:
+
+```bash
+claude plugin list
+```
+
+Install a plugin:
+
+```bash
+claude plugin install handshake@survivaldev-plugins
+claude plugin install vibeflow@survivaldev-plugins
+claude plugin install survivaldev-infradoctor@survivaldev-plugins
+claude plugin install converge@survivaldev-plugins
+claude plugin install prforge@survivaldev-plugins
 ```
 
 ## Topics

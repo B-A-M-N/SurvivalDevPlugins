@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "survivaldev-plugins",
+  "owner": {
+    "name": "BAMN"
+  },
+  "description": "Context-continuity and workflow-survival plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "handshake",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/B-A-M-N/handshake.git"
+      },
+      "description": "Context-continuity for Claude Code. Checkpoints workflow state before compaction or clear events and rehydrates afterward.",
+      "author": {
+        "name": "BAMN"
+      },
+      "category": "workflow"
+    },
+    {
+      "name": "survivaldev-infradoctor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/B-A-M-N/survivaldev-infradoctor.git"
+      },
+      "description": "Infrastructure doctor for self-hosted services such as Firecrawl and SearXNG. Hook-driven diagnosis, safe repair, and validation.",
+      "author": {
+        "name": "BAMN"
+      },
+      "category": "development"
+    },
+    {
+      "name": "vibeflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/B-A-M-N/vibeflow.git"
+      },
+      "description": "Mistral Vibe workflow orchestration for designing, planning, applying, inspecting, and validating agentic workflows.",
+      "author": {
+        "name": "BAMN"
+      },
+      "category": "workflow"
+    },
+    {
+      "name": "converge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/B-A-M-N/converge.git"
+      },
+      "description": "Universal recurring task engine for CLI AI agents. Cron-based scheduling, loop execution, and background task management.",
+      "author": {
+        "name": "BAMN"
+      },
+      "category": "automation"
+    },
+    {
+      "name": "prforge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/B-A-M-N/prforge.git"
+      },
+      "description": "Professional PR contribution harness for Claude Code. Delegated PR execution with guarded release, coding discipline enforcement, and distributed mesh mode.",
+      "author": {
+        "name": "BAMN"
+      },
+      "category": "development"
+    }
+  ]
+}
